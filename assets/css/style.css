@@ -158,6 +158,7 @@ a {
     color: var(--dark-jungle-green);
     font-family: var(--ff-poppins);
     line-height: 1.3;
+  width:fit-content;
 }
 
 .h1 {
@@ -226,11 +227,13 @@ a {
     border-radius: 50px;
     margin-inline: auto;
     margin-bottom: 15px;
+    width:fit-content;
 }
 
 .section-title {
     text-align: var(--text-align, center);
     margin-bottom: var(--margin-bottom, 50px);
+    width:fit-content;
 }
 
 .card-badge {
@@ -242,6 +245,7 @@ a {
     top: 15px;
     right: 15px;
     padding: 4px 10px;
+    width:fit-content;
 }
 
 .card-badge.green {
@@ -293,6 +297,7 @@ a {
 .header {
     position: relative;
     z-index: 2;
+    width:fit-content;
 }
 
 .header-top {
@@ -306,6 +311,8 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    width:fit-content;
 }
 
 .header-top .container {
@@ -510,6 +517,7 @@ a {
 
 .hero-title {
     margin-bottom: 20px;
+    width:fit-content;
 }
 
 .hero-text {
@@ -519,6 +527,7 @@ a {
     padding-left: 15px;
     border-left: 1px solid;
     margin-bottom: 30px;
+    width:fit-content;
 }
 
 
@@ -528,6 +537,7 @@ a {
 
 .about {
     padding-block: var(--section-padding);
+    width:fit-content;
 }
 
 .about-banner {
@@ -619,6 +629,7 @@ a {
 .service {
     background: var(--cultured-2);
     padding-block: var(--section-padding);
+    width:fit-content;
 }
 
 .service-list {
@@ -626,6 +637,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    width:fit-content;
 }
 
 .service-card {
@@ -634,6 +646,7 @@ a {
     text-align: center;
     padding: 40px 30px;
     box-shadow: var(--shadow-2);
+    width:fit-content;
 }
 
 .service-card .card-icon {
@@ -669,6 +682,8 @@ a {
 
 .service-card:is(:hover, :focus) .card-link {
     color: var(--orange-soda);
+  width:fit-content;
+  
 }
 
 .service-card::after {
@@ -693,17 +708,20 @@ a {
 
 .property {
     padding-block: var(--section-padding);
+    width:fit-content;
 }
 
 .property-card {
     border: 1px solid var(--alice-blue);
     box-shadow: var(--shadow-2);
+    width:fit-content;
 }
 
 .property-card .card-banner {
     position: relative;
     aspect-ratio: 2 / 1.5;
     overflow: hidden;
+    width:fit-content;
 }
 
 .property-card .card-banner a {
