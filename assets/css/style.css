@@ -85,12 +85,12 @@ body {
         }
 
         /* Media queries for different screen sizes */
-        @media (min-width: 600px) {
+        @media (min-width: 300px) {
             .box {
                 flex: 1 1 50%; /* 50% width for larger screens */
             }
         }
-        @media (min-width: 900px) {
+        @media (min-width: 300px) {
             .box {
                 flex: 1 1 33.33%; /* 33.33% width for even larger screens */
             }
@@ -1316,7 +1316,7 @@ a {
  * responsive for larger than 768px screen
  */
 
-@media (min-width: 768px) {
+@media (min-width: 300px) {
     /**
    * CUSTOM PROPERTY
    */
@@ -1446,7 +1446,7 @@ a {
  * responsive for larger than 992px screen
  */
 
-@media (min-width: 992px) {
+@media (min-width: 300px) {
     /**
    * CUSTOM PROPERTY
    */
@@ -1565,7 +1565,7 @@ a {
  * responsive for larger than 1200px screen
  */
 
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
     /**
    * CUSTOM PROPERTY
    */
