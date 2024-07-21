@@ -1231,7 +1231,7 @@ a {
  * responsive for larger than 600px screen
  */
 
-@media (min-width: 600px) {
+@media (min-width: 200px) {
     /**
    * CUSTOM PROPERTY
    */
