@@ -67,9 +67,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-   align-items: center; /* Vertically centers the text */
-            justify-content: center; /* Horizontally centers the text */
-            text-align: center;
+  
 }
 
 
@@ -88,6 +86,9 @@ body {
 li {
     list-style: none;
 }
+ * {
+            box-sizing: border-box;
+        }
 
 a {
     text-decoration: none;
